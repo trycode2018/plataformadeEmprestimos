@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|c:\\users\\henri\\source\\repos\\emprestimoapp\\views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|solutionrelative:views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|c:\\users\\henri\\source\\repos\\emprestimoapp\\views\\emprestimo\\emprestimo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|solutionrelative:views\\emprestimo\\emprestimo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|c:\\users\\henri\\source\\repos\\emprestimoapp\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|c:\\users\\henri\\source\\repos\\emprestimoapp\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|solutionrelative:models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B00E189-204E-400E-931C-70C86EED0678}|EmprestimoApp.csproj|c:\\users\\henri\\source\\repos\\emprestimoapp\\data\\emprestimocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,59 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Models\\Emprestimo.cs",
-              "RelativeDocumentMoniker": "Models\\Emprestimo.cs",
-              "ToolTip": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Models\\Emprestimo.cs",
-              "RelativeToolTip": "Models\\Emprestimo.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T23:49:49.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Views\\Emprestimo\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Emprestimo\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Views\\Emprestimo\\Cadastrar.cshtml",
-              "RelativeToolTip": "Views\\Emprestimo\\Cadastrar.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T23:10:53.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Emprestimo.cshtml",
-              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Views\\Emprestimo\\Emprestimo.cshtml",
-              "RelativeDocumentMoniker": "Views\\Emprestimo\\Emprestimo.cshtml",
-              "ToolTip": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Views\\Emprestimo\\Emprestimo.cshtml",
-              "RelativeToolTip": "Views\\Emprestimo\\Emprestimo.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T16:16:09.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EmprestimoController.cs",
               "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Controllers\\EmprestimoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmprestimoController.cs",
               "ToolTip": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Controllers\\EmprestimoController.cs",
               "RelativeToolTip": "Controllers\\EmprestimoController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwG0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T16:14:03.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EmprestimoContext.cs",
               "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Data\\EmprestimoContext.cs",
               "RelativeDocumentMoniker": "Data\\EmprestimoContext.cs",
@@ -107,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

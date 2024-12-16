@@ -1,15 +1,16 @@
 ﻿@model Emprestimo
 @{
-    ViewData["title"] = "Cadastrar Emprestimos";
+    ViewData["title"] = "Editar Emprestimos";
 }
 
 <div class="container bg-gradient p-5 rounded-5">
     <div class="mb-5 text-center">
-        <h1 class="text-dark display-6 text-muted text-uppercase">Cadastro de emprestimos</h1>
+        <h1 class="text-dark display-6 text-muted text-uppercase">Editar emprestimos</h1>
     </div>
 
-    <form method="post" asp-controller="Emprestimo" asp-action="Cadastrar">
+    <form method="post" asp-controller="Emprestimo" asp-action="Editar">
 
+        <input type="hidden" asp-for="Id"  />
         <div class="mb-3">
             <label for="Recebedor" class="form-label text-dark text-uppercase">Recebedor:</label>
             <input type="text" asp-for="Recebedor" class="form-control" id="Recebedor" placeholder="Quem esta recebendo o livro">
@@ -19,7 +20,7 @@
         <div class="mb-3">
             <label for="Fornecedor" class="form-label text-dark text-uppercase">Fornecedor</label>
             <input type="text" asp-for="Fornecedor" class="form-control" id="Fornecedor" placeholder="Quem esta fornecendo o livro">
-            <span class="text-danger" asp-validation-for="Fornecedor"></span>       
+            <span class="text-danger" asp-validation-for="Fornecedor"></span>
         </div>
 
         <div class="mb-3">
@@ -29,8 +30,8 @@
         </div>
 
         <div class="d-flex gap-3 mt-5">
-            <button type="submit" class="btn btn-primary w-25">Cadastrar</button>
-            <a class="btn btn-info w-25" asp-controller="Emprestimo" asp-action="Emprestimo">Voltar</a>
+            <button type="submit" class="btn btn-success w-25">Atualizar</button>
+            <a class="btn btn-primary w-25" asp-controller="Emprestimo" asp-action="Emprestimo">Voltar</a>
         </div>
     </form>
 

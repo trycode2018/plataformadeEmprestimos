@@ -3,16 +3,41 @@
 <div class="container">
 
     <div class="d-flex justify-content-between align-items-center mb-5">
-        <h1>Empréstimos</h1>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar">Cadastrar novo empréstimo</a>
+        <h1 class="display-4">Empréstimos</h1>
+        <div>
+            <a class="btn btn-primary mx-2 text-uppercase" asp-controller="Emprestimo" asp-action="Exportar">Exportar</a>
+            <a class="btn btn-primary mx-2 text-uppercase" asp-controller="Emprestimo" asp-action="Cadastrar">Cadastrar novo empréstimo</a>
+        </div>
     </div>
-<table class="table table-dark table-hover">
+
+    @if (TempData["Sucesso"] != null)
+    {
+        <div class="alert alert-success bg-success text-light" role="alert">
+            @TempData["Sucesso"]
+        </div>
+    }
+    @if (TempData["Aviso"] != null)
+    {
+        <div class="alert alert-warning bg-warning text-light" role="alert">
+            @TempData["Aviso"]
+        </div>
+    }
+    @if (TempData["Danger"] != null)
+    {
+        <div class="alert alert-danger bg-danger text-light" role="alert">
+            @TempData["Danger"]
+        </div>
+    }
+
+
+    <table class="table table-light text-muted text-uppercase table-borderless table-hover">
     <thead>
-        <tr>
+            <tr>
             <th>Recebedor</th>
             <th>Fornecedor</th>
             <th>Livro</th>
             <th>Data</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -21,10 +46,15 @@
             @foreach(var emprestimo in Model)
             {
                 <tr>
-                    <th scope="row">@emprestimo.Recebedor</th>
+                    <th >@emprestimo.Recebedor</th>
                     <td>@emprestimo.Fornecedor</td>
                     <td>@emprestimo.Livro</td>
                     <td>@emprestimo.DataEmprestimo</td>
+                        <td class="d-flex gap-0 mt-0">
+                        <a asp-controller="Emprestimo" asp-route-id="@emprestimo.Id" asp-action="Editar" class="btn btn-warning mx-1">Editar</a>
+                        <a asp-controller="Emprestimo" asp-route-id="@emprestimo.Id" asp-action="Excluir" class="btn btn-danger mx-1">Excluir</a>
+                    </td>
+                    
                 </tr>
             }
         }

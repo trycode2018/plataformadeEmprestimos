@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\wwwroot\\img\\certificate_php.jpg",
+      "PackagePath": "staticwebassets\\img\\certificate_php.jpg"
+    },
+    {
       "Id": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

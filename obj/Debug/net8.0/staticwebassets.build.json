@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WQ9lIK5603EmF7IvCNbg/+AgzyLoi9RhzU1Cg2VQmTE=",
+  "Hash": "MFfX28K9gXcBVfFf4ubbIQ55/DSXckzIWuEwIvxSjIQ=",
   "Source": "EmprestimoApp",
   "BasePath": "_content/EmprestimoApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\wwwroot\\img\\certificate_php.jpg",
+      "SourceId": "EmprestimoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\wwwroot\\",
+      "BasePath": "_content/EmprestimoApp",
+      "RelativePath": "img/certificate_php.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\certificate_php.jpg"
     },
     {
       "Identity": "C:\\Users\\henri\\source\\repos\\EmprestimoApp\\wwwroot\\js\\site.js",

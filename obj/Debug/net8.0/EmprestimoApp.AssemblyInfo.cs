@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmprestimoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0da1a80e15d2fe286f3fca496b1c82d780287f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+544e65be7dc630ca30e7d22cb49168c630ac7689")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmprestimoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmprestimoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
